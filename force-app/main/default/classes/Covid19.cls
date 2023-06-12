@@ -8,6 +8,7 @@ public class Covid19 {
     //added class and updated code with testing
     //comment for tresting
     //asjasbasasas
+    //asavsgcvsg
    /* public Covid19()
     {
         system.debug('blank construtor is called');
