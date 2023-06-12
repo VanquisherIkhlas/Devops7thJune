@@ -7,6 +7,7 @@ public class Covid19 {
     //more deletion
     //added class and updated code with testing
     //comment for tresting
+    //asjasb
    /* public Covid19()
     {
         system.debug('blank construtor is called');
