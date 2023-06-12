@@ -30,11 +30,10 @@ jobs:
         runs-on: ubuntu-latest
         if: ${{ github.actor != 'dependabot[bot]' }}
         steps:
-   # Setup Node
-    - name: Setup Node
-      uses: actions/setup-node@v1
-      with:
-          node-version: '14.x'
+            # Now we install nodejs in the VM, and specify version 14
+            - uses: actions/setup-node@v3
+              with:
+                node-version: '14x'
 
             # The idea is that the VM can access your remote repository
             # because your repository is an sfdx project.
